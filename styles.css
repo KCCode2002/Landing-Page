@@ -8,3 +8,72 @@
     height: 200px;
 }
 
+#fishlogo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info-header {
+    text-align: center;
+}
+.info-body{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.hero3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.around .name {
+    text-align: right;
+}
+
+.hero4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: teal;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+
+.footer {
+    text-align: center;
+}
