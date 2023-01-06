@@ -1,6 +1,9 @@
 #info-pic {
     max-width: 300px;
     max-height: 300px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    background-color: #3882F6;
 }
 
 #hero-img {
@@ -13,12 +16,24 @@
     max-height: 100px;
 }
 
+#buton {
+    padding: 10px 20px;
+}
+
+#but {
+    max-width: 150px;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
-.header a, .hero-para {
+.header a, .hero-para, .wording{
     font-size: 18px;
     text-decoration: none;
     color: #E7E5Eb
@@ -34,6 +49,23 @@ body{
     background-color: #1f2937;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937
+}
+
+.name {
+    font-size: 25px;
+    color: #1f2937;
+}
+
 .links {
     display: flex;
     gap: 20px;
@@ -42,26 +74,33 @@ body{
 .hero {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .para {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 70px 0px;
 }
-.info-header {
-    text-align: center;
-}
+
 .info-body{
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
 
+#info-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .hero3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7Eb;
 }
 
 .around .name {
@@ -81,6 +120,7 @@ body{
     background-color: #3882F6;
     padding: 20px 40px;
     margin: 20px 0;
+    border-radius: 12px;
 }
 
 .footer {
@@ -91,9 +131,13 @@ body{
 .hero-title {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FaF8
+    color: #F9FaF8;
+    margin: 0;
 }
 
 button {
     background-color: #3882F6;
+    border-radius: 12px;
+    color: #E5E7Eb;
+    padding: 5px;
 }
